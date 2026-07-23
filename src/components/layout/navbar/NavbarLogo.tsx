@@ -1,3 +1,4 @@
+import {Globe, Moon} from 'lucide-react';
 export default function NavbarLogo() {
   return (
     <div>
