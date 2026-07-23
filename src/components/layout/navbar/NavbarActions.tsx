@@ -2,14 +2,12 @@ import {Globe} from 'lucide-react';
 
 export default function NavbarActions() {
   return (
-    <div className="flex items-center gap-5">
-        <button className="rounded-full border border-white px-5 py-1 font-semibold transition hover:bg-white hover:text-black"
-        >Login/Sign up
-        </button>
-        <button className="hover:[&_p]:text-black-500 items-center gap-2 md:flex">
-          <Globe size={18} />
-          English
-        </button>
+    <div className="flex items-center gap-4">
+      <button className="flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2 text-slate-300 transition hover:brightness-150">
+        <Globe size={16} />
+        <span>US EN</span>
+      </button>
+        English
     </div>
   );
 }
