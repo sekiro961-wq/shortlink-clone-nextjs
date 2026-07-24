@@ -1,14 +1,19 @@
 export default function NavbarLogo() {
   return (
-    <div className="flex items-center gap-3">
+    <a  href="#" className="flex items-center gap-3 hover: opacity-80">
       <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-violet-600 to-blue-500">
       </div>
-      <p className="text-[11px] opacity-80">
-      Free from Vietnam
-      </p>
-      <p className="text-[18px] font-bold tracking-wide">
-      0973825506
-      </p> 
-    </div> 
+      <div>
+        <h1 className="text-xl font-bold text-white">
+          <span className="text-violet-500">Link</span>
+          <span className="text-blue-400">Short</span>
+        </h1>
+          <p className="-mt-1 text-[10px] tracking-[2px] text-slate-400">
+            SMART LINKS
+          </p>
+      </div>
+        
+
+    </a> 
   );
 }
