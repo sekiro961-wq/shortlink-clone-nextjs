@@ -5,7 +5,7 @@ import HeroTerm from "./HeroTerm";
 
 export default function Hero () {
     return (
-        <header className="bg-[#C2E9FB]">
+        <header className="bg-black">
               <div className="mx-auto h-200 p-10 max-w-7xl items-center justify-between">
                 <HeroTitle />
                 <HeroSubtitle />

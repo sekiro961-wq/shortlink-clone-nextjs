@@ -1,3 +1,3 @@
 export default function HeroTitle() {
-    return <div>Title</div>
+    return <div>Transform your long links into powerful URLs</div>
 }
