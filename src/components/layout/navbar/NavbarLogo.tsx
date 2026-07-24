@@ -1,4 +1,3 @@
-import {Globe, Moon} from 'lucide-react';
 export default function NavbarLogo() {
   return (
     <div className="flex items-center gap-3">

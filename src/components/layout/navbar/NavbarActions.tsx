@@ -1,4 +1,4 @@
-import {Globe} from 'lucide-react';
+import {Globe,Moon} from 'lucide-react';
 
 export default function NavbarActions() {
   return (
@@ -7,7 +7,9 @@ export default function NavbarActions() {
         <Globe size={16} />
         <span>US EN</span>
       </button>
-        English
+      <button className="rounded-xl border border-slate-700 bg-slate-900 p-2.5 text-slate-300 transition hover:brightness-150">
+        <Moon size={16} />
+      </button>
     </div>
   );
 }
