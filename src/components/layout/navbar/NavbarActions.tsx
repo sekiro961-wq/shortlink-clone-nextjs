@@ -13,6 +13,9 @@ export default function NavbarActions() {
       <a href="#" className="text-slate-300 hover:brightness-150">
         Sign in
       </a>
+      <button className="rounded-xl bg-blue-500 px-6 py-3 font-semibold text-white transition hover:brightness-90">
+        Start Free
+      </button>
     </div>
   );
 }
