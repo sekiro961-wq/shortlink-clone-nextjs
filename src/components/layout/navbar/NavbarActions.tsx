@@ -10,6 +10,9 @@ export default function NavbarActions() {
       <button className="rounded-xl border border-slate-700 bg-slate-900 p-2.5 text-slate-300 transition hover:brightness-150">
         <Moon size={16} />
       </button>
+      <a href="#" className="text-slate-300 hover:brightness-150">
+        Sign in
+      </a>
     </div>
   );
 }
