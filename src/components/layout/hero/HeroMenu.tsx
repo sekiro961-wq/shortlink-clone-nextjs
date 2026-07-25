@@ -16,18 +16,20 @@ export default function HeroMenu() {
           Shorten Now
         </button>
       </div>
+      <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <FeatureCard title="Custom Link" />
+        <FeatureCard title="Password Protection" />
+        <FeatureCard title="Set Expiration" />
+        <FeatureCard title="Generate QR Code" />
+      </div>
     </div>
   );
 }
-
-function FeatureCard({ title, desc }: { title: string; desc: string }) {
+function FeatureCard({ title }: { title: string }) {
   return (
-    <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:border-sky-500/40">
+    <div className="flex flex-col items-center rounded-2xl border border-slate-800 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:border-sky-500/40">
       <div className="mb-4 h-10 w-10 rounded-xl bg-sky-500/20" />
-
       <h3 className="font-semibold text-white">{title}</h3>
-
-      <p className="mt-2 text-sm text-slate-400">{desc}</p>
     </div>
   );
 }
