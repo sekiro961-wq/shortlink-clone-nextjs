@@ -1,7 +1,7 @@
 export default function HeroTitle() {
     return( 
     <div>
-        <div className="max-w-5xl text-6xl font-extrabold leading-tight text-white md:text-7xl">
+        <div className="text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl mb-6 text-center ">
         Transform your {" "}
         <span className="text-sky-400">
         long links
