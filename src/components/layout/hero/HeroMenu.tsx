@@ -39,6 +39,24 @@ export default function HeroMenu() {
           hoverColor="hover:border-orange-500"
         />
       </div>
+      <div className="mt-12 flex flex-col items-center gap-5">
+        <p className="text-slate-400">Join thousands of professionals using LinkShort</p>
+
+        <div className="flex gap-4">
+          <button className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-500 px-7 py-3 font-semibold text-white">
+            Start Free
+          </button>
+
+          <button className="flex items-center gap-3 rounded-xl border border-fuchsia-500/40 px-8 py-4 text-white">
+            <span className="rounded-full bg-fuchsia-500 px-2 py-1 text-xs font-bold">NEW</span>
+            Discover Pages
+            <span className="bg-pink">→</span>
+          </button>
+        </div>
+        <p className="text-sm text-slate-500">
+          ✨ No credit card • ⚡ 30-second setup • 🔒 100% Secure
+        </p>
+      </div>
     </div>
   );
 }
