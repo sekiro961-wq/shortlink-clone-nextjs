@@ -1,4 +1,4 @@
-import {Globe,Moon} from 'lucide-react';
+import { Globe, Moon } from 'lucide-react';
 
 export default function NavbarActions() {
   return (
@@ -13,7 +13,7 @@ export default function NavbarActions() {
       <a href="#" className="text-slate-300 hover:brightness-150">
         Sign in
       </a>
-      <button className="rounded-xl bg-blue-500 px-6 py-3 font-semibold text-white transition hover:brightness-90">
+      <button className="rounded-xl bg-blue-500 px-6 py-3 font-semibold text-white transition hover:brightness-80">
         Start Free
       </button>
     </div>

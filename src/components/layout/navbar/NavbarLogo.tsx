@@ -1,7 +1,7 @@
 import { Link } from 'lucide-react';
 export default function NavbarLogo() {
   return (
-    <a href="#" className="hover: flex items-center gap-3 opacity-80">
+    <a href="#" className="hover: flex items-center gap-3 opacity-80 hover:brightness-80">
       <div className="relative h-10 w-10">
         <Link
           size={24}
