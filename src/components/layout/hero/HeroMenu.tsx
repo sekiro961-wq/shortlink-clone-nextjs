@@ -1,4 +1,4 @@
-import { Link, Shield, Calendar, QrCode } from 'lucide-react';
+import { Link, Shield, Calendar, QrCode, Clipboard, Sparkles } from 'lucide-react';
 export default function HeroMenu() {
   return (
     <div className="mx-auto mt-14 w-full max-w-5xl rounded-3xl border border-slate-800 bg-slate-900/70 p-6 backdrop-blur">
@@ -9,12 +9,14 @@ export default function HeroMenu() {
             placeholder="Paste your URL here..."
             className="h-16 w-full rounded-2xl border border-slate-700 bg-slate-950 px-5 pr-24 text-white outline-none placeholder:text-slate-500 focus:border-sky-500"
           />
-          <button className="absolute top-1/2 right-3 -translate-y-1/2 rounded-xl border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300 transition hover:brightness-150">
-            Paste
+          <button className="absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300 transition hover:brightness-150">
+            <Clipboard size={14} />
+            <span>Paste</span>
           </button>
         </div>
-        <button className="h-16 rounded-2xl bg-slate-200 px-8 font-semibold text-slate-900 transition hover:bg-white">
-          Shorten Now
+        <button className="flex h-16 items-center gap-2 rounded-2xl bg-gray-400 px-8 font-semibold text-white transition hover:brightness-150">
+          <Sparkles size={14} />
+          <span>Shorten Now</span>
         </button>
       </div>
       <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
